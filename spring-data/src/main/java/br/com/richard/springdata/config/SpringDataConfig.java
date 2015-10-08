@@ -24,10 +24,13 @@ public class SpringDataConfig {
 
 	@Value(value = "${jdbc.user}")
 	private String username;
+	
 	@Value(value = "${jdbc.pass}")
 	private String password;
+	
 	@Value(value = "${jdbc.driver}")
 	private String driver;
+	
 	@Value(value = "${jdbc.url}")
 	private String url;
 	
