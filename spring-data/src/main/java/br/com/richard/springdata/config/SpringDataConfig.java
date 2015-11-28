@@ -45,7 +45,7 @@ public class SpringDataConfig {
 	@Bean
 	public HibernateJpaVendorAdapter jpaVendorAdapter() {
 		HibernateJpaVendorAdapter adapter = new HibernateJpaVendorAdapter();
-		adapter.setShowSql(true);
+		adapter.setShowSql(false);
 		adapter.setGenerateDdl(true);
 		return adapter;
 	}

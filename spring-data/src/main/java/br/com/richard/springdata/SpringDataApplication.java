@@ -53,7 +53,34 @@ public class SpringDataApplication implements CommandLineRunner {
 		//testeFindAndSort();
 		//testeFindBayIds();
 		//testeExists();
-		testePaginationPerson();
+		//testePaginationPerson();
+		
+		//testeFindByAge();
+		testeByFirstNameLike();
+		
+	}
+
+	private void testeByFirstNameLike() {
+		
+		List<Person> p1 = personRepository.findByFirstNameLike("Antonio");
+		p1.forEach(System.out::println);
+		
+		System.out.println("**********************************************************");
+		
+		List<Person> p2 = personRepository.findByFirstNameNotLike("Antonio");
+		p2.forEach(System.out::println);
+	}
+
+	private void testeFindByAge() {
+		
+		List<Person> persons = personRepository.findByAge(30);
+		persons.forEach(System.out::println);
+		
+		System.out.println("**********************************************************");
+		
+		List<Person> p2 = personRepository.findByAgeNot(30);
+		p2.forEach(System.out::println);
+		
 	}
 
 	private void testePaginationPerson() {

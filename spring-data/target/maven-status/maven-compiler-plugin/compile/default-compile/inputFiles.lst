@@ -1,9 +1,9 @@
 /home/richard/git/spring-data/spring-data/src/main/java/br/com/richard/springdata/config/SpringDataConfig.java
-/home/richard/git/spring-data/spring-data/src/main/java/br/com/richard/springdata/SpringDataApplication.java
 /home/richard/git/spring-data/spring-data/src/main/java/br/com/richard/springdata/entity/Document.java
+/home/richard/git/spring-data/spring-data/src/main/java/br/com/richard/springdata/SpringDataApplication.java
 /home/richard/git/spring-data/spring-data/src/main/java/br/com/richard/springdata/repository/AddressRepository.java
-/home/richard/git/spring-data/spring-data/src/main/java/br/com/richard/springdata/repository/PhoneRepository.java
 /home/richard/git/spring-data/spring-data/src/main/java/br/com/richard/springdata/repository/PersonRepository.java
+/home/richard/git/spring-data/spring-data/src/main/java/br/com/richard/springdata/repository/PhoneRepository.java
 /home/richard/git/spring-data/spring-data/src/main/java/br/com/richard/springdata/entity/Phone.java
 /home/richard/git/spring-data/spring-data/src/main/java/br/com/richard/springdata/entity/Address.java
 /home/richard/git/spring-data/spring-data/src/main/java/br/com/richard/springdata/repository/DocumentRepository.java
